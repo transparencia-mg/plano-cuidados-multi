@@ -14,20 +14,23 @@ resources:
     schema:
       fields:
         - name: unidade
-          type: string
+          type: text
           description: "Unidade da rede Fhemig. Siglas das unidades FHEMIG: CSSFA (Casa de Saúde São Francisco de Assis, em Bambuí); CSSFE (Casa de Saúde Santa Fé, em Três Corações); CSSI (Casa de Saúde Santa Izabel, em Betim); CHPB (Centro Hospitalar Psiquiátrico de Barbacena, em Barbacena); HAC (Hospital Alberto Cavalcanti, em Belo Horizonte); HCM (Hospital Cristiano Machado, em Sabará); HEM (Hospital Eduardo de Menezes, em Belo Horizonte); HIJPII (Hospital Infantil João Paulo II, em Belo Horizonte); HJXXIII (Hospital João XXIII, em Belo Horizonte); HJK (Hospital Júlia Kubitschek, em Belo Horizonte); HMAL (Hospital Maria Amélia Lins, em Belo Horizonte); HRAD (Hospital Regional Antônio Dias, em Patos de Minas); HRBJA (Hospital Regional de Barbacena Dr José Américo, em Barbacena); HRJP (Hospital Regional Dr João Penido, em Juiz de Fora); IRS (Instituto Raul Soares, em Belo Horizonte); MOV (Maternidade Odete Valadares, em Belo Horizonte); MGT (MG Transplantes)."
         - name: ano
-          type: integer
+          type: text
           description: "Ano de referência."
         - name: mes
-          type: integer
+          type: text
           description: "Mês de referência."
         - name: pacientes_pcm
-          type: geopoint
+          type: text
           description: "Total de pacientes internados que possuem um plano de cuidados elaborado e registrado por uma equipe multiprofissional (médico, enfermagem, fisioterapia, nutrição, serviço social, entre outros)."
         - name: internacoes
-          type: geopoint
+          type: text
           description: "Total de internações hospitalares."
+        - name: tx_pacientes_pcm
+          type: text
+          description: "Taxa de pacientes internados que possuem um plano de cuidados elaborado e registrado por uma equipe multiprofissional (médico, enfermagem, fisioterapia, nutrição, serviço social, entre outros)."
     scheme: file
     title: Pacientes com Plano de Cuidados Multiprofissional
 title: Pacientes com Plano de Cuidados Multiprofissional

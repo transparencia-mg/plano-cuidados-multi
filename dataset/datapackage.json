@@ -23,23 +23,28 @@
           },
           {
             "name": "ano",
-            "type": "integer",
+            "type": "string",
             "description": "Ano de referência."
           },
           {
             "name": "mes",
-            "type": "integer",
+            "type": "string",
             "description": "Mês de referência."
           },
           {
             "name": "pacientes_pcm",
-            "type": "geopoint",
+            "type": "string",
             "description": "Total de pacientes internados que possuem um plano de cuidados elaborado e registrado por uma equipe multiprofissional (médico, enfermagem, fisioterapia, nutrição, serviço social, entre outros)."
           },
           {
             "name": "internacoes",
-            "type": "geopoint",
+            "type": "string",
             "description": "Total de internações hospitalares."
+          },
+          {
+            "name": "tx_pacientes_pcm",
+            "type": "string",
+            "description": "Taxa de pacientes internados que possuem um plano de cuidados elaborado e registrado por uma equipe multiprofissional (médico, enfermagem, fisioterapia, nutrição, serviço social, entre outros)."
           }
         ]
       },

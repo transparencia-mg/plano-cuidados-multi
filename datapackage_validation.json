@@ -1,6 +1,6 @@
 {
   "version": "4.16.6",
-  "time": 0.022,
+  "time": 0.02,
   "errors": [],
   "tasks": [
     {
@@ -52,13 +52,13 @@
         "scheme": "file",
         "title": "Pacientes com Plano de Cuidados Multiprofissional",
         "stats": {
-          "hash": "06ad0b193735fc84bbd06bb310cf115c",
-          "bytes": 5974,
+          "hash": "54c81406ebe35111ac02602be3a99d7b",
+          "bytes": 4783,
           "fields": 6,
-          "rows": 130
+          "rows": 131
         }
       },
-      "time": 0.013,
+      "time": 0.012,
       "scope": [
         "hash-count-error",
         "byte-count-error",
@@ -80,38 +80,16 @@
         "unique-error"
       ],
       "partial": false,
-      "errors": [
-        {
-          "cells": [
-            "",
-            "",
-            "",
-            "",
-            "",
-            ""
-          ],
-          "rowNumber": 129,
-          "rowPosition": 130,
-          "code": "blank-row",
-          "name": "Blank Row",
-          "tags": [
-            "#table",
-            "#row"
-          ],
-          "note": "",
-          "message": "Row at position \"130\" is completely blank",
-          "description": "This row is empty. A row should contain at least one value."
-        }
-      ],
+      "errors": [],
       "stats": {
-        "errors": 1
+        "errors": 0
       },
-      "valid": false
+      "valid": true
     }
   ],
   "stats": {
-    "errors": 1,
+    "errors": 0,
     "tasks": 1
   },
-  "valid": false
+  "valid": true
 }
